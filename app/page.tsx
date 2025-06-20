@@ -1,13 +1,12 @@
 export default function Home() {
   return (
-    <main className="flex-1 duration-1000 starting:opacity-0">
+    <>
       <div className="flex h-[calc(100vh---spacing(24))] items-center justify-center">
         <div className="px-3 text-center">
-          <h1 className="flex flex-col justify-center gap-2 text-4xl font-extrabold tracking-widest text-stone-800 sm:flex-row sm:gap-4 sm:text-5xl">
-            <span>TAICCY&apos;s</span>
-            <span>PORTFOLIO</span>
+          <h1 className="flex flex-col justify-center gap-2 text-center text-4xl font-extrabold tracking-widest text-stone-800 transition-all duration-1000 sm:text-5xl starting:opacity-0">
+            TAICCY&apos;s PORTFOLIO
           </h1>
-          <p className="mt-8 text-sm tracking-widest text-stone-800 sm:text-xl">
+          <p className="mt-8 text-sm tracking-widest text-stone-800 transition-all delay-200 duration-1000 sm:text-xl starting:opacity-0">
             <span>The Portfolio Site of Taiccy</span>
             <span className="px-2">—</span>
             <span className="sm:whitespace-nowrap">
@@ -21,6 +20,6 @@ export default function Home() {
           <div key={index} className="bg-muted aspect-video rounded-lg"></div>
         ))}
       </div>
-    </main>
+    </>
   )
 }

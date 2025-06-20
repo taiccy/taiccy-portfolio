@@ -1,16 +1,14 @@
 export default function Page() {
   return (
-    <main className="flex-1 duration-1000 starting:opacity-0">
-      <div className="flex h-screen items-center justify-center">
-        <div className="px-3 text-center">
-          <h1 className="text-4xl font-extrabold tracking-widest text-stone-800 sm:text-5xl">
-            ABOUT
-          </h1>
-          <p className="mt-8 text-sm tracking-widest text-stone-800 sm:text-xl">
-            This is the about page of Taiccy&apos;s portfolio.
-          </p>
-        </div>
-      </div>
-    </main>
+    <div className="space-y-5 p-6">
+      <h1 className="text-5xl font-extrabold tracking-wider transition-all duration-1000 starting:opacity-0">
+        ABOUT
+      </h1>
+      <p className="text-xs transition-all delay-200 duration-1000 sm:text-sm starting:opacity-0">
+        実現可能な内容や、利用可能なスキルについての情報をまとめています。
+        <br />
+        具体的なご依頼やご相談の前に、ぜひご一読ください。
+      </p>
+    </div>
   )
 }

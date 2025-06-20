@@ -63,7 +63,7 @@ export default function ConsultationList() {
   ]
 
   return (
-    <section className="px-4 py-16">
+    <section className="px-4 py-16 transition-all delay-500 duration-1000 starting:opacity-0">
       <div className="mx-auto max-w-6xl">
         <div className="mb-12 text-center">
           <h2 className="mb-4 text-3xl font-bold text-gray-900">

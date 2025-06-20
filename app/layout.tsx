@@ -80,8 +80,7 @@ export default function RootLayout({
         <div className="fixed top-[50vh] left-1/2 -z-50 aspect-square w-3/5 max-w-xl -translate-1/2 -translate-x-1/2 opacity-10">
           <Image src="/taiccy-avatar.png" fill alt="taiccyのアバター" />
         </div>
-        {children}
-
+        <main className="flex-1">{children}</main>
         <footer className="h-24 bg-stone-800 text-center">
           <div className="flex h-full items-center justify-center">
             <p className="text-sm tracking-wider text-stone-200">
